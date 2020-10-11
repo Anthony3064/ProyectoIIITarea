@@ -35,7 +35,7 @@ const Ingredients = ({ route }) => {
 
         listaCocteles.forEach(
 
-            c => {
+            c => { 
                 if (condicionBreak == false) {
                     if (c.nombreCoctel.toLocaleLowerCase() == nombreCoctelParam.toLowerCase()) {
                         listaIngredientes = c.ingredientes;
